@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code", "code", "{1F0C51C6-5F08-44EB-A2A9-1695AEAD1712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDB713D0-E8C3-4A54-9C29-21F9C90AC832}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{80569D81-78D6-4026-A136-278B55CC8B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LadderRanking", "code\src\LadderRanking\LadderRanking.csproj", "{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LadderRankingUnitTests", "code\test\LadderRankingUnitTests\LadderRankingUnitTests.csproj", "{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDB713D0-E8C3-4A54-9C29-21F9C90AC832} = {1F0C51C6-5F08-44EB-A2A9-1695AEAD1712}
+		{80569D81-78D6-4026-A136-278B55CC8B9B} = {1F0C51C6-5F08-44EB-A2A9-1695AEAD1712}
+		{CEE5DC18-B35C-4D7E-A039-3297FB6A3FED} = {FDB713D0-E8C3-4A54-9C29-21F9C90AC832}
+		{8C2FA5C5-A62E-43A9-B28D-BC329968BAD6} = {80569D81-78D6-4026-A136-278B55CC8B9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8AE312D-2815-4F9D-9652-8B4642E94922}
+	EndGlobalSection
+EndGlobal
